@@ -35,16 +35,16 @@ class pila {
     }
   }
   
-  const stack = new pila();
+  const pilita = new pila();
   console.log(pilita.size()); // 0
   console.log(pilita.push('Annelis')); // { '0': 'Annelis' }
   console.log(pilita.size()); // 1
   console.log(pilita.peek()); // Annelis
   console.log(pilita.push('Sacalxot')); // { '0': 'Annelis', '1': 'Sacalxot' }
   console.log(pilita.size()); // 2
-  stack.print(); // { '0': 'Annelis', '1': 'Sacalxot' }
+  pilita.print(); // { '0': 'Annelis', '1': 'Sacalxot' }
   console.log(pilita.peek()); // Sacalxot
   console.log(pilita.pop()); // Sacalxot
-  stack.print(); // { '0': 'Annelis' }
+  pilita.print(); // { '0': 'Annelis' }
   console.log(pilita.size()); // 1
   console.log(pilita.peek()); // Annelis
